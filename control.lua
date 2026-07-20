@@ -42,6 +42,11 @@ script.on_event({defines.events.on_player_created, defines.events.on_player_join
   if player and player.valid then show_gui(player) end
 end)
 
+script.on_event("ResetEvolutionPollution", function(event)
+  local player = game.players[event.player_index]
+  if player and player.valid then doit(player) end
+end)
+
 script.on_event(defines.events.on_gui_click, function(event)
   local gui = event.element
   local player = game.players[event.player_index]
