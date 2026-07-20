@@ -7,6 +7,7 @@ Date: 2026-07-19
 Version: 0.0.3
 Date: 2026-07-18
   Changes:
+    - - Fork from https://github.com/brainmydamage/ResetEvolutionPollution-SpaceAge
     - Compatibity to Space Age 2.11
 ---------------------------------------------------------------------------------------------------
 Version: 0.0.2
